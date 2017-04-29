@@ -2,7 +2,7 @@
 
 $mysql_host = 'localhost';
 $mysql_username = 'root';
-$mysql_password = '1234';
+$mysql_password = '';
 
 mysql_connect($mysql_host, $mysql_username, $mysql_password)or
 		die("Could not connect: " . mysql_error());
