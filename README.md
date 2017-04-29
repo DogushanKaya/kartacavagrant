@@ -1,9 +1,5 @@
 #kartacavagrant
 
-vagrant version 1.9.4
-
-virtualbox 5.0.36_Ubuntu r114008
-
 https://github.com/sdemircan/phpapp   reposundaki dosyaları vagrantta oluşturulan makineye klonluyor.
 
 mysql apache2 php kuruluyor.
