@@ -1,7 +1,5 @@
 #kartacavagrant
 
-https://github.com/sdemircan/phpapp   reposundaki dosyaları vagrantta oluşturulan makineye klonluyor.
-
 mysql apache2 php kuruluyor.
 
 phpapp içindeki dosyalar /var/www/html içine kopyalanıyor.
