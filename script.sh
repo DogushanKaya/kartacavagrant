@@ -3,7 +3,7 @@
 
 
 sudo apt-get install git-core -y
-git clone https://github.com/sdemircan/phpapp.git
+git clone https://github.com/DogushanKaya/kartacavagrant.git
 
 
 
@@ -20,7 +20,7 @@ echo "Installing MySQL"
 apt-get install mysql-server -y
 
 
-sudo cp phpapp/* /var/www/html
+sudo cp kartacavagrant/phpapp/* /var/www/html
 sudo rm /var/www/html/index.html
 sed -i "/$mysql_password = '';/c\$mysql_password = '1234'\;" /var/www/html/conn.php
 sudo mysql -u root -p1234 < /var/www/html/schema.sql
